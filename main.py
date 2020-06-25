@@ -12,7 +12,7 @@ configuration.api_key['Apikey'] = 'YOUR_API_KEY'
 
 # create an instance of the API class
 api_instance = cloudmersive_convert_api_client.ConvertDocumentApi(cloudmersive_convert_api_client.ApiClient(configuration))
-input_file = '/path/to/file.txt' # file | Input file to perform the operation on.
+input_file = 'C:\\temp\\input.xlsx' # file | Input file to perform the operation on.
 
 try:
     # Convert Excel XLSX Spreadsheet to PDF
