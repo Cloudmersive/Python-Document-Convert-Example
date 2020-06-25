@@ -1,1 +1,1 @@
-cloudmersive-convert-api-client==2.4.9
+cloudmersive-convert-api-client==3.0.1
